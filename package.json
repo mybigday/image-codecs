@@ -1,0 +1,37 @@
+{
+  "name": "image-codecs",
+  "version": "0.1.0",
+  "description": "Cross platform image encode/decode",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mybigday/image-codecs.git"
+  },
+  "keywords": [
+    "image",
+    "encode",
+    "decode",
+    "png",
+    "jpeg",
+    "jpg",
+    "bmp"
+  ],
+  "author": "Hans <me@hans00.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mybigday/image-codecs/issues"
+  },
+  "homepage": "https://github.com/mybigday/image-codecs#readme",
+  "dependencies": {
+    "bmp-js": "^0.1.0",
+    "fast-png": "^6.2.0",
+    "jpeg-js": "^0.4.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
